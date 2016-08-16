@@ -1,9 +1,9 @@
 {
-  "name": "bisheng",
+  "name": "ljbisheng",
   "version": "0.12.1",
   "description": "Transform Markdown files into a SPA website using React.",
   "bin": {
-    "bisheng": "./bin/bisheng"
+    "ljbisheng": "./bin/ljbisheng"
   },
   "scripts": {
     "lint": "eslint .eslintrc.js ./lib ./test",
@@ -15,7 +15,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/benjycui/bisheng.git"
+    "url": "git+https://github.com/tinys/ljbisheng.git"
   },
   "keywords": [
     "markdown",
@@ -27,11 +27,11 @@
   "author": "Benjy Cui",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/benjycui/bisheng/issues"
+    "url": "https://github.com/tinys/ljbisheng/issues"
   },
-  "homepage": "https://github.com/benjycui/bisheng#readme",
+  "homepage": "https://github.com/tinys/ljbisheng#readme",
   "dependencies": {
-    "atool-build": "^0.7.1",
+    "ljtool-build": "^1.0.0",
     "babel-polyfill": "^6.9.1",
     "bluebird": "^3.4.0",
     "commander": "^2.9.0",
